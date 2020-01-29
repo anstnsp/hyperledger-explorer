@@ -35,21 +35,21 @@
 		}
 	},
 	"organizations": {
-		"Org1MSP": {
+		"naver": {
 			"mspid": "naverMSP",
 			"fullpath": true,
 			"adminPrivateKey": {
-				"path": "/crypto-config/naverOrganization/orgnaver/admin/msp/keystore/a50649085c03b390d85d7a4aa219e37dbd64ef20e971fc0dd33cebe107c00ca0_sk"
+				"path": "/home/fabric/test/myNetwork/crypto-config/naverOrganization/orgnaver/admin/msp/keystore/server.key"
 			},
 			"signedCert": {
-				"path": "/crypto-config/naverOrganization/orgnaver/admin/msp/admincerts/cert.pem"
+				"path": "/home/fabric/test/myNetwork/crypto-config/naverOrganization/orgnaver/admin/msp/admincerts/cert.pem"
 			}
 		}
 	},
 	"peers": {
 		"peer0.orgnaver.com": {
 			"tlsCACerts": {
-				"path": "/crypto-config/naverOrganization/orgnaver/peers/peer0/tls/ca.crt"
+				"path": "/home/fabric/test/myNetwork/crypto-config/naverOrganization/orgnaver/peers/peer0/tls/ca.crt"
 			},
 			"url": "grpcs://localhost:7051",
 			"eventUrl": "grpcs://localhost:7053",
@@ -59,7 +59,7 @@
 		},
 		"peer1.orgnaver.com": {
 			"tlsCACerts": {
-				"path": "/crypto-config/naverOrganization/orgnaver/peers/peer1/tls/ca.crt"
+				"path": "/home/fabric/test/myNetwork/crypto-config/naverOrganization/orgnaver/peers/peer1/tls/ca.crt"
 			},
 			"url": "grpcs://localhost:8051",
 			"eventUrl": "grpcs://localhost:8053",

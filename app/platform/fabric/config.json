@@ -1,8 +1,9 @@
 {
 	"network-configs": {
-		"first-network": {
-			"name": "first-network",
-			"profile": "./connection-profile/first-network.json"
+		"anstnsp": {
+			"name": "myNetwork",
+			"profile": "./connection-profile/myNetwork.json",
+			"enableAuthentication": false
 		}
 	},
 	"license": "Apache-2.0"
